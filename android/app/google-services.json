@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961519639955",
+    "project_id": "rentapp-fg-x",
+    "storage_bucket": "rentapp-fg-x.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961519639955:android:eeef99891c5b9ed27f1c66",
+        "android_client_info": {
+          "package_name": "com.example.rentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTVe1FIpkmWmfEX39GFp5sL2h96DN3HrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
