@@ -23,11 +23,11 @@ class MapsDetailsPage extends StatelessWidget {
         children: [
           FlutterMap(
             options: MapOptions(
-              center: LatLng(51, -0.09),
-              zoom: 13
+              initialCenter: LatLng(51, -0.09),
+              initialZoom: 13
             ),
-            layers: [
-              TileLayerOptions(
+            children: [
+              TileLayer(
                 urlTemplate: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 subdomains: ['a','b','c']
               )
